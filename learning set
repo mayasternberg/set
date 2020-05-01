@@ -1,3 +1,5 @@
-test_list = raw_input("Write a sequence of numbers with no commas: \n")
-test_list = list(set(test_list)) 
-print ("The list after removing duplicates : " + str(test_list))
+test_list = raw_input("Write a sequence of words with no commas: \n")
+li = test_list.split()
+new_li = list(set(li)) 
+new_li.sort()
+print ("The list after removing duplicates : " + str(new_li))
