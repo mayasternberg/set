@@ -1,0 +1,3 @@
+test_list = raw_input("Write a sequence of numbers with no commas: \n")
+test_list = list(set(test_list)) 
+print ("The list after removing duplicates : " + str(test_list))
